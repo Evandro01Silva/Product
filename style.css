@@ -1,3 +1,52 @@
 body{
     background: #F1A661;
+    margin-top: 100px;
+    text-align: left;
+}
+
+#perf{
+    color: dimgray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+}
+
+#title{
+    font-family: 'Fraunces', serif;
+    font-size: 25pt;
+    margin: 12px auto 12px;
+}
+
+#text{
+    width: 250px;
+    height: 400px;
+    background: white;
+    padding: 25px;
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#descr{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: dimgray;
+}
+
+#price{
+    display: inline;
+    color: dimgray;
+}
+
+#promo{
+    color: #4B8673;
+    display: inline;
+    font-family: 'Fraunces', serif;
+    font-size: 20pt;
+    margin-right: 20px;
+}
+
+#add{
+    background-color: #4B8673;
+    color: white;
+    margin-top: 30px;
 }

@@ -1,7 +1,7 @@
 body{
-    background: #F1A661;
+    background: #FFF5E4;
     margin-top: 80px;
-    text-align: left;
+    margin-bottom: 80px;
 }
 
 #perf{
@@ -16,7 +16,27 @@ body{
     margin: 12px auto 12px;
 }
 
+#picture{
+    display: inline;
+    margin-left: 400px;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    right: 21px;
+    width: 275px;
+}
+
+#figure{
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    left: 380px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
 #text{
+    display: inline;
     width: 250px;
     height: 400px;
     background: white;
@@ -24,6 +44,8 @@ body{
     margin: auto;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    position: absolute;
+    left: 680px;
 }
 
 #descr{
@@ -33,8 +55,12 @@ body{
 }
 
 #price{
-    display: inline;
+    display: inline-block;
     color: dimgray;
+    position: relative;
+    bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
 }
 
 #promo{

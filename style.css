@@ -16,15 +16,6 @@ body{
     margin: 12px auto 12px;
 }
 
-#picture{
-    display: inline;
-    margin-left: 400px;
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    right: 21px;
-    width: 275px;
-}
-
 #figure{
     width: 300px;
     height: 450px;
